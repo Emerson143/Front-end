@@ -5,7 +5,7 @@
     
     --primary-bg-color: #111217;  /* cor de fundo  */
     /* bg = background = plano de fundo */
-    --secondary-bg-color: #252526;
+    --secondary-bg-color: #19d2ea;
     --primary-border-color: #28292E;
     --secundary-border-color: #5a5a5d;
 
@@ -293,7 +293,7 @@ p {
     width: 4.8rem;
     height: 4.8rem;
     border: 1px solid var(--secondary-border-color);
-    border: 5rem;
+    border-radius: 5rem;
 }
 .tecnologias-logo{
     height: 2.4rem;
