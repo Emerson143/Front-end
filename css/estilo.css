@@ -218,7 +218,7 @@ p {
 .btn {
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: center;
     gap: 0.625rem;
     width: 100%;
     background: transparent;
@@ -264,19 +264,19 @@ p {
 }
 .tecnologias {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    gap: 1.25;
+    gap: 1.25rem;
     padding: 6.25rem 1rem 2rem;
     background:  var(--secondary-bg-color);
-    margin-top: -5.5rem;
+    margin-top: -2.5rem;
    
 }
 
 .tecnologias h2 {
     font-size: 2rem;
-    text-align: center;
+    text-decoration: none;
     letter-spacing: normal;
     text-align: start;
 }
