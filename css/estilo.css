@@ -256,7 +256,7 @@ p {
 }
 .video iframe{
     width: 100%;
-    aspect-ratio: 15/09;
+    aspect-ratio: 16/09;
 }
 
 #home, .projetos, .sobre, .contato{
@@ -264,7 +264,7 @@ p {
 }
 .tecnologias {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     gap: 1.25;
