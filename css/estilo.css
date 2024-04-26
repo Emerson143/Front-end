@@ -295,6 +295,30 @@ p {
 }
 
 .projetos {
-    
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 
+}
+.projeto-container{
+    display: flex;
+
+}
+.card-cover{
+    width: 100;
+    border-radius: 0.5rem;
+    object-fit: cover;
+    object-position: center;
+
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 1rem;
+    }
+
+.card-descricao{
+    
 }
