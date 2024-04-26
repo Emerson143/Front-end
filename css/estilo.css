@@ -1,19 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=League+Spartan:wght@100..900&display=swap');
 
 :root, :root[data-theme='dark'] {
-    --primary-color: #503edd;  /* cor de texto */
+    --primary-color: #F0F0F0;  /* cor de texto */
     
     --primary-bg-color: #111217;  /* cor de fundo  */
     /* bg = background = plano de fundo */
-    --secondary-bg-color: #19d2ea;
+    --secondary-bg-color: #28292E;
     --primary-border-color: #28292E;
-    --secundary-border-color: #5a5a5d;
+    --secondary-border-color: #56575A;
 
-    --title-color: #7058fd;
-    --text-color: #dedef1;
-    --text-color-mobile: rgb(67, 67, 209);
+    --title-color: #F0f0f0;
+    --text-color: #9a9a9c;
     --link-color: #9a9a9c;
-    --icon-color: #f6f7f7;
+    --icon-color: #c7c8c9;
 
 }
 
@@ -174,7 +173,7 @@ p {
 
 .menu-mobile {
     width: 100vw;  /* V W = viewport width*/
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     justify-content: space-between;
     border-top: 1px solid var(--primary-border-color);   
@@ -224,41 +223,39 @@ p {
     background: transparent;
     border-radius: 3rem;
     border: none;
-    padding: 0.875rem 1.5rem;
+    padding: 0.5rem 1.5rem;
     transition: ease-in-out .3s;
     cursor: pointer;
     color: var(--primary-color);
 }
-.bot:hover{
+.btn:hover{
     transform: scale(1.05);
     transition: ease-in-out .3s;
 }
 .btn span, .btn i {
-    forced-color-adjust: 1.25 rem;
+    font-size: 1.25rem;
     text-transform: uppercase;
 }
 .btn-primary span {
-        color: var(--primary-color);
+    color: var(--primary-color);
 }
 .btn-primary {
-        border: 1px solid var(--primary-color);
+    border: 1px solid var(--primary-color);
 }
-#home{
+#home {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 2rem; 
 }
-
-.main-context {
+.main-content {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
 }
-.video iframe{
+.video iframe {
     width: 100%;
-    aspect-ratio: 16/09;
+    aspect-ratio: 16/9;
 }
-
 #home, .projetos, .sobre, .contato{
     padding: 2.5rem 1rem;
 }
@@ -269,32 +266,35 @@ p {
     align-items: center;
     gap: 1.25rem;
     padding: 6.25rem 1rem 2rem;
-    background:  var(--secondary-bg-color);
-    margin-top: -2.5rem;
-   
+    background: var(--secondary-bg-color);
+    margin-top: -5.5rem;
 }
-
 .tecnologias h2 {
     font-size: 2rem;
-    text-decoration: none;
+    text-transform: none;
     letter-spacing: normal;
     text-align: start;
 }
-.tecnologias-lista {
+.tecnologias-lista {  
     display: flex;
     flex-flow: row wrap;
     gap: .5rem;
 }
-.tecnologias-item {
+.tecnologia-item {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 4.8rem;
     height: 4.8rem;
-    border: 1px solid var(--secondary-border-color);
+    border: 3px solid var(--secondary-border-color);
     border-radius: 5rem;
 }
-.tecnologias-logo{
+.tecnologia-logo{
     height: 2.4rem;
+}
+
+.projetos {
+    
+
 }
