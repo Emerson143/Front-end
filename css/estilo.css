@@ -473,3 +473,15 @@ p {
 .accordion-item.active .bi-caret-down-fill{
     transform: rotate(10 0);
 }
+/* Contato */
+.contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid var(--primary-border-color);
+    border-bottom: 1px solidd var(--secondary-bg-color);
+    }
+.contato p {
+    text-align: center;
+}
