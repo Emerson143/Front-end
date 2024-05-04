@@ -499,4 +499,16 @@ footer p {
     text-align: center;
     padding: 1rem;
 }
-@media ()
+@media (min-wid: 768px){
+    #header{
+        position: fixed;
+        border-bottom: 1px solid var(--primary-border-color);
+        padding: 1rem 6rem;
+        background-color: var(--primary-bg-color);
+    
+    }
+    .nav-mobile{
+        display: none;
+    }
+    
+}
