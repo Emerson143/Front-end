@@ -485,3 +485,18 @@ p {
 .contato p {
     text-align: center;
 }
+.contato .btn {
+    width: auto;
+}
+.contato .email{
+    text-transform: uppercase;
+}
+footer  {
+    margin-top: 5rem;
+}
+footer p {
+    font-size: .875rem;
+    text-align: center;
+    padding: 1rem;
+}
+@media ()
