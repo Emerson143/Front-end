@@ -508,6 +508,7 @@ footer p {
       padding: 1rem 6rem;
       background: var(--primary-bg-color);
   }
+}
   .nav-mobile {
       display: none;
   }
@@ -542,5 +543,40 @@ footer p {
   .contato p {
       width: 80%;
   }
+  .main-content1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
-} 
+  .tecnologias {
+    padding: 6.25rem 6rem 2rem 6rem;
+    margin-top: -6rem;
+  }
+
+  footer {
+    margin: 0;
+  }
+
+
+@media (min-width: 992px) {
+  .projeto-card {
+    flex-direction: row;
+  }
+
+  .projeto-card.card-reverse {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  
+  .card-cover {
+    width: 55%;
+  }
+
+  .sobre {
+    gap: 5rem;
+  }
+  .sobre-content1, .sobre-content2{
+
+  }
+}
