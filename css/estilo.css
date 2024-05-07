@@ -577,6 +577,8 @@ footer p {
     gap: 5rem;
   }
   .sobre-content1, .sobre-content2{
-
+      display: grid;
+      grid-template-columns: 34% 60%;
+      justify-content: ;
   }
 }
