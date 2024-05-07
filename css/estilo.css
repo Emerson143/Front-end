@@ -623,6 +623,13 @@ footer p {
       height: 3rem;
     }
     p, span, li{
-      
+      font-size: 1.15rem;
     }
+    .card-button .btn,
+    .card-descricao-button .btn{
+      width: auto;
+    }
+}
+@media (min-width: 1400px){
+  
 }
