@@ -395,11 +395,11 @@ p {
   gap: 2rem;
 }
 .sobre-logo {
-  width: 100%;
-  
+  width: 500px; /* Define a largura desejada */
+  height: auto; /* Mantém a proporção original da imagem */
   object-fit: cover;
   object-position: center;
-  border-radius: 50rem;
+  border-radius: 50%; /* Faz a imagem completamente redonda */
 }
 .sobre-descricao {
   display: flex;
